@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Berbers / Text-->
+<GameData>
+	<LocalizedText>
+
+		<!--CIVILIZATION-->
+		<Row Tag="LOC_CIVILIZATION_CVS_BERBER_NAME" Language="en_US">
+			<Text>Berbers</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_CVS_BERBER_DESCRIPTION" Language="en_US">
+			<Text>Berber Empire</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_CVS_BERBER_ADJECTIVE" Language="en_US">
+			<Text>Berber</Text>
+		</Row>
+
+		<!--Pedia-->
+		<Row Tag="LOC_CIVINFO_CVS_BERBER_LOCATION" Language="en_US">
+			<Text>Northwest Africa</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_CVS_BERBER_POPULATION" Language="en_US">
+			<Text>Estimates range between 25 and 70 million.</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_CVS_BERBER_SIZE" Language="en_US">
+			<Text>Approximately 7,876,000 km² (3,400,000 sq mi)</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_CVS_BERBER_CAPITAL" Language="en_US">
+			<Text>Various, including Khenchela, Altava, and Fez</Text>
+
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_CVS_BERBER_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>The Berbers are a group of peoples indigenous to North Africa. The lands of the Berbers, known as Tamazgha, stretches from the Atlantic coast of Africa in the west to Egypt in the east, and though the different groups of Berbers may have differing customs – from the Kaybles to the Tuareg, the Shilha to the Siwi – they share a linguistic connection; today, roughly 25 to 30 million people speak one of the many Berber languages. The Berbers, who refer to themselves as the Imazighen (meaning ‘free people’), have defended their lands against invaders for millennia, from the Romans, to the Arabs, to the French. Though the culture of the Berber people has intermingled with that of their neighbors, their language and traditions remain alive and well today, particularly in Morocco and the Algerian Hautes Plaines.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_CVS_BERBER_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>The Berbers are believed to have inhabited the Maghreb region since at least 10,000 BCE, as evidenced by rock art and other artifacts from the prehistoric age. In the ancient and classical worlds, the Berbers were known as Mazices or Libyans. The Ancient Egyptian frequently interacted with the Libyans of the Western Desert, some of whom were employed by Ramesses the Great in his armies, and we know of more than a few Pharaohs of Egypt who were of Libyan/Berber backgrounds, including Shoshenq I and his uncle, Osorkon the Elder, who came from a Berber tribe known as the Meshwesh.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_CVS_BERBER_CHAPTER_HISTORY_PARA_3" Language="en_US">
+			<Text>There were said to be three tribal divisions for the Berbers in classical antiquity: the Mauri of modern-day Morocco (the origin of the name of the modern-day country of Mauritania), the Numidians in Algeria, and the Gaetulians in Algeria and Tunisia. The Mauri and Numidians were sedentary, with significant population centers, whereas the Gaetulians were more pastoral. The first outside group to arrive in the lands of the Berbers were the Phoenicians, who set up cities along the North African coast, the most significant of which was Carthage, future enemy of the Romans. These outposts were largely commercial in nature, acting as trading hubs, and Phoenician and Berber culture intermingled in urban areas like Volubilis, Theveste, Lixus, and Saldae. As Phoenician settlements grew, and their control of the land expanded, however, the Berbers began to resist them. But the fates of the Phoenicians (and later, the Carthaginians) and the Berbers were intertwined, and they found themselves to be uneasy yet necessary allies.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_CVS_BERBER_CHAPTER_HISTORY_PARA_4" Language="en_US">
+			<Text>One of the first independent Berber kingdoms in the Maghreb was the Kingdom of Numidia, founded by Masinissa in 202 BCE. Masinissa was a skilled general who allied his tribe, the Massylii, first with Carthage and then later with Rome. He ruled Numidia for 54 years and was known to the Greek historian Polybius as ‘the best man of all the kings of our time’ for both his military prowess and his role in transforming Numidia’s agricultural development. Carthage and Rome both sought the Numidians as allies in part because of the renowned Numidian Calvary, said by Livy to be ‘by far the best horsemen in Africa’ and famous for their quick speed, expert horsemanship, and devastating tactics in battle. Numidia would go on to be a sometimes-province, sometimes-client state of the ascendant Roman Empire.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_CVS_BERBER_CHAPTER_HISTORY_PARA_5" Language="en_US">
+			<Text>The seventh century brought a new force into the region. Arabs, bringing their language and the nascent religion of Islam with them, began to expand west across North Africa. Prior to the introduction of Islam, the lands of the Berbers were home primarily to Jews, Christians, and followers of local animist faiths. The first Arabian military expedition into the Maghreb occurred between 642 and 669. After this expedition, the Umayyad Caliphate redoubled its efforts to secure the southern coast of the Mediterranean, and, in 670, the Umayyad general Uqba ibn Nafi established the town of Kairouan in Tunisia as a forward base against the Berbers, establishing the province of Ifriqiya.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_CVS_BERBER_CHAPTER_HISTORY_PARA_6" Language="en_US">
+			<Text>The subsequent decades would be violent ones as the Berbers resisted the Arabian invaders. One prominent Berber resistance leader of this era was Caecilius, the ruler of the Kingdom of Altava. Caecilius allied with the Byzantine Empire to combat the armies of Uqba ibn Nafi, ambushing him as he returned to Kairouan. The defeat of Uqba ibn Nafi, along with a civil war in core of the Umayyad Empire, delayed further Arabian attempts to expand their influence in the Maghreb for several years. They did return however, in greater numbers, and Caecilius was defeated and killed at the Battle of Mamma in 690. Without Caecilius’s leadership, the region was soon overrun, but the resistance would continue.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_CVS_BERBER_CHAPTER_HISTORY_PARA_7" Language="en_US">
+			<Text>As leader of the Berber resistance, Caecilius was succeeded by the warrior queen Dihya, known to the Arabs as al-Kahina, meaning soothsayer. Her opponents believed she was a sorceress and had the gift of prophecy, which allowed her to overcome the invaders. She ruled as Queen of the Berbers over a state that stretched from the Aures Mountains to the oasis of Ghadames and through a combination of military successes and scorched-earth tactics kept the Arabs at bay. She was ultimately defeated, however, in 705, but her memory lived on as a powerful symbol of the independent Berber spirit, with her legacy receiving a resurgence in the twentieth century among feminist and Berber activist authors and thinkers.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_CVS_BERBER_CHAPTER_HISTORY_PARA_8" Language="en_US">
+			<Text>After the conquest of the Maghreb, the Arab elite levied harsh taxes upon their Berber subjects and, in some cases, enslaved them, causing alienation that could not be assuaged even by the largescale adoption of Islam by the Berbers. In fact, religion played an important role in the tensions that came to a head in 739 with the Great Berber Revolt, as radical Kharijite and Ibadi activists spurred the Berbers to rebel. The Great Berber Revolt was ultimately a success, allowing the Berbers to wrest control of much of modern-day Algeria and Morocco from the Umayyads and resulted in the creation of several small Berber states across the region. Over the succeeding centuries, several Berber dynasties rose and fell, including the Rustaminds of central Algeria, the Zirids of Ifriqiya, the Almoravids of Morocco, the Hafsids in Tunis, and the Zianids who ruled from Tlemcen. Berber control even expanded into Europe, with the Almoravid dynasty seizing control of Al-Andalus in the 11th century.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_CVS_BERBER_CHAPTER_HISTORY_PARA_9" Language="en_US">
+			<Text>The Berber kingdoms maintained their independence for several centuries after the Revolt. Some of the coastal regions came under loose Ottoman control, starting in 1517 when Oruç Reis, brother of the famous corsair Hayreddin Barbarossa and himself running his privateering operations from Algiers, requested Ottoman protection from the Spanish, who controlled several cities along the Barbary coast. The Ottomans would later extend their control to include Tripoli and its surrounds in 1551 and Tunisia in 1574. Ottoman control over their nominal vassals would wane, however, over the subsequent centuries, and by the time of the Barbary Wars in the early nineteenth century, the Regency of Algiers, Eyalet of Tripolitania, and Beylik of Tunis were practically independent.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_CVS_BERBER_CHAPTER_HISTORY_PARA_10" Language="en_US">
+			<Text>This was not to last however, as the French moved in shortly after the Barbary Wars. French Algeria was established in 1830, French Tunisia in 1881, and French Morocco in 1912. Even the southern regions of Tamazgha, the home of the Tuareg, were controlled by the French; French Sudan (modern-day Mali) was created in 1880, the colony of Mauritania in 1903, Upper Volta (nowadays Burkina Faso) in 1919, and the colony of Niger in 1922. The Berbers continued to resist, however. The Ahaggar Tuareg of southern Algeria put up some of the fiercest resistance of the early twentieth century under the guidance of Moussa ag Amastan, as did the Tuareg of the Air Mountains in northern Niger, led by Ag Mohammed Wau Teguidda Kaocen, architect of the eponymous 1916 Kaocen Revolt. Nonetheless, some Berbers fought alongside the French in the World Wars, most notably the Moroccan Gourmiers, who served in Italy and France in the final years of World War 2 and in Indochina after the war.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_CVS_BERBER_CHAPTER_HISTORY_PARA_11" Language="en_US">
+			<Text>As a whole, however, the Berber people continued to agitate for independence, and most of the French holdings in north and west Africa received their independence in the 1950s with the dissolution of French West Africa and the French Protectorates of Morocco and Tunisia. In the next decade, despite French attempts to administer Algeria has a core part of metropolitan France, it too broke free following the seven-year Algerian War of Independence.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_CVS_BERBER_CHAPTER_HISTORY_PARA_12" Language="en_US">
+			<Text>Although the Berbers today are largely free of foreign domination, they still struggle to maintain their language, customs, and traditions in their increasingly Arabized post-colonial countries. Berberism, a political-cultural movement centered on a shared sense of Berber community, emerged in the late colonial era but has only grown in the latter half of the twentieth century, continuing the Berber’s fight for self-determination. This has sometimes led to conflict, as was the case in 2012, when Tuareg militants in Mali rebelled and declared the independent state of Azawad, or when Berbers in Libya were key in the fight to depose Muammar Gaddafi in 2011. As it has been for thousands of years, the Berbers shall continue to fight for what is theirs – an unsurprising future for such a resilient culture.</Text>
+		</Row>
+
+
+		<!--Trait-->
+		<Row Tag="LOC_TRAIT_CIVILIZATION_CVS_TAMAZGHA_NAME" Language="en_US">
+			<Text>Tamazgha</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_CVS_TAMAZGHA_DESCRIPTION" Language="en_US">
+			<Text>Trade Units are invisible unless adjacent to an enemy unit. Foreign Trade Routes that pass through Berber cities generate +3 [ICON_Gold] Gold and +2 [ICON_Production] Production in those cities. Specialty districts get a major adjacency bonus from Oases. Flat tiles adjacent to at least one Foggara produce +1 [ICON_Food] Food.</Text>
+		</Row>
+
+		<!--Citizens-->
+		<Row Tag="LOC_CITIZEN_CVS_BERBER_MALE_1" Language="en_US">
+			<Text>Cicnaw</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_CVS_BERBER_MALE_2" Language="en_US">
+			<Text>Yugerten</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_CVS_BERBER_MALE_3" Language="en_US">
+			<Text>Yuba</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_CVS_BERBER_MALE_4" Language="en_US">
+			<Text>Gildu</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_CVS_BERBER_MALE_5" Language="en_US">
+			<Text>Tirines</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_CVS_BERBER_MALE_6" Language="en_US">
+			<Text>Afulay</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_CVS_BERBER_MALE_7" Language="en_US">
+			<Text>ibn Battuta</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_CVS_BERBER_MALE_8" Language="en_US">
+			<Text>Gaya</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_CVS_BERBER_MALE_9" Language="en_US">
+			<Text>Vermina</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_CVS_BERBER_MALE_10" Language="en_US">
+			<Text>Takfarin</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_CVS_BERBER_MODERN_MALE_1" Language="en_US">
+			<Text>Muhend</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_CVS_BERBER_MODERN_MALE_2" Language="en_US">
+			<Text>Husin</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_CVS_BERBER_MODERN_MALE_3" Language="en_US">
+			<Text>Hmed</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_CVS_BERBER_MODERN_MALE_4" Language="en_US">
+			<Text>Larbi</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_CVS_BERBER_MODERN_MALE_5" Language="en_US">
+			<Text>Si Muhand</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_CVS_BERBER_MODERN_MALE_6" Language="en_US">
+			<Text>Lwennas</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_CVS_BERBER_MODERN_MALE_7" Language="en_US">
+			<Text>Kateb</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_CVS_BERBER_MODERN_MALE_8" Language="en_US">
+			<Text>Zineddin</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_CVS_BERBER_MODERN_MALE_9" Language="en_US">
+			<Text>Mulud</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_CVS_BERBER_MODERN_MALE_10" Language="en_US">
+			<Text>Sliman</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_CVS_BERBER_FEMALE_1" Language="en_US">
+			<Text>Lalla Fadma</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_CVS_BERBER_FEMALE_2" Language="en_US">
+			<Text>Tawes</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_CVS_BERBER_FEMALE_3" Language="en_US">
+			<Text>Taderfit</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_CVS_BERBER_FEMALE_4" Language="en_US">
+			<Text>Tagwizult</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_CVS_BERBER_FEMALE_5" Language="en_US">
+			<Text>Tantawilt</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_CVS_BERBER_FEMALE_6" Language="en_US">
+			<Text>Hindi</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_CVS_BERBER_FEMALE_7" Language="en_US">
+			<Text>Takama</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_CVS_BERBER_FEMALE_8" Language="en_US">
+			<Text>Tadla</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_CVS_BERBER_FEMALE_9" Language="en_US">
+			<Text>Tafrara</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_CVS_BERBER_FEMALE_10" Language="en_US">
+			<Text>Tajeddigt</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_CVS_BERBER_MODERN_FEMALE_1" Language="en_US">
+			<Text>Lalla Fadma</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_CVS_BERBER_MODERN_FEMALE_2" Language="en_US">
+			<Text>Tawes</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_CVS_BERBER_MODERN_FEMALE_3" Language="en_US">
+			<Text>Taderfit</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_CVS_BERBER_MODERN_FEMALE_4" Language="en_US">
+			<Text>Tagwizult</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_CVS_BERBER_MODERN_FEMALE_5" Language="en_US">
+			<Text>Tantawilt</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_CVS_BERBER_MODERN_FEMALE_6" Language="en_US">
+			<Text>Hindi</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_CVS_BERBER_MODERN_FEMALE_7" Language="en_US">
+			<Text>Takama</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_CVS_BERBER_MODERN_FEMALE_8" Language="en_US">
+			<Text>Tadla</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_CVS_BERBER_MODERN_FEMALE_9" Language="en_US">
+			<Text>Tafrara</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_CVS_BERBER_MODERN_FEMALE_10" Language="en_US">
+			<Text>Tajeddigt</Text>
+		</Row>
+
+		<!--Arer Warrior-->
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_CVS_BERBER_UU_NAME" Language="en_US">
+			<Text>Arer Warrior</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_CVS_BERBER_UU_DESCRIPTION" Language="en_US">
+			<Text>Anti-cavalry unit replacing the Pikeman. Available an era earlier at Military Training. Weaker and cheaper than the Pikeman but receives a combat bonus when defending, doubled when in friendly territory.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_CVS_BERBER_UU_NAME" Language="en_US">
+			<Text>Arer Warrior</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_CVS_BERBER_UU_DESCRIPTION" Language="en_US">
+			<Text>Anti-cavalry unit replacing the Pikeman. Available an era earlier at Military Training. Weaker and cheaper than the Pikeman but receives a combat bonus when defending, doubled when in friendly territory.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CVS_BERBER_UU_CHAPTER_CAPSULE_BODY" Language="en_US">
+			<Text>
+				Excelling at defense, the Arer Warrior can punch above it's weight when attacked by other units and can turn the tide of any invasion of your homeland.
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CVS_BERBER_UU_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>
+				An arer, also known as an arar, ayar, or agher, is a type of shield used by the Tuareg, a Berber ethnic confederation who live in the southern Sahara. These shields are approximately 1.5 meters tall and were most often made from oryx (antelope) hide, although occasionally they were made from the hides of other animals like the giraffe or the addax. The skins were tanned in milk, which gave the shields incredible strength. They were said to be impervious to iron, whether it was from spear, sword, or javelin. The shields were also decorated with inscriptions and metal studs, which were thought to offer spiritual protection to its bearer in addition to its physical defensive properties.
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CVS_BERBER_UU_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>
+				In addition to the arer, Tuareg warriors utilized numerous outher weapons of war, including the aller (a spear) and the tarda (a javelin). Upper-class soldiers, members of the aristocratic warrier class known as the Ihaggaren, also wielded a sword called the takuba as well. Many also dressed in the traditional Tuareg garment known as the Tagelmust, which is a type of head covering that also covers the face. This article of clothing, and other Tuareg garments, were often died a distinctive blue-indigo color, which sometimes stained the skin, earning the Tuareg the nickname, "The Blue People."
+			</Text>
+		</Row>
+
+		<!--Foggara-->
+		<Row Tag="LOC_IMPROVEMENT_CVS_BERBER_UI_NAME" Language="en_US">
+			<Text>Foggara</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_CVS_BERBER_UI_DESCRIPTION" Language="en_US">
+			<Text>Unlocked at Irrigation. Can only be built on flat desert terrain and can only be constructed in a line with other Foggara. Provides +1 [ICON_Food] Food, plus an additional [ICON_Food] Food for each adjacent Mountain or Hills tile. Provides an additional +1 [ICON_Food] Food if adjacent to two other Foggaras.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_IMPROVEMENT_CVS_BERBER_UI_NAME" Language="en_US">
+			<Text>Foggara</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_IMPROVEMENT_CVS_BERBER_UI_DESCRIPTION" Language="en_US">
+			<Text>Unlocked at Irrigation. Can only be built on flat desert terrain and can only be constructed in a line with other Foggara. Provides +1 [ICON_Food] Food, plus an additional [ICON_Food] Food for each adjacent Mountain or Hills tile. Provides an additional +1 [ICON_Food] Food if adjacent to two other Foggaras.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_DISTRICTS_PAGE_IMPROVEMENT_CVS_BERBER_UI_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>
+				A foggara is an irrigation system akin to the Persian qanat. Foggaras consist of a series of wells dug into a hillside with the shafts connected by a sloping channel. The channel exits the hill at its base, bringing water from within the hill, where the water table is higher, to low-lying lands nearby, thereby allowing for agricultural production in harsh desert conditions.
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_DISTRICTS_PAGE_IMPROVEMENT_CVS_BERBER_UI_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>
+				Foggaras were built all across North Africa, from Morocco to Egypt. Though they are expensive and time consuming to build, they are remarkably resilient to both natural disasters and intentional manmade destruction, require very little upkeep to maintain, and are impressively efficient, with very little water lost to evaporation. Historically, much of the population of North Africa outside oasis and river towns depended on foggaras for their water, and, as such, they were highly valued pieces of communal infrastructure.
+			</Text>
+		</Row>
+		
+
+		<Row Tag="LOC_CVS_TAMAZGHA_DISTRICT_CAMPUS_OASIS_ADJACENCY" Language="en_US">
+			<Text>
+				+2 [ICON_SCIENCE] Science from the adjacent Oasis Tile.
+			</Text>
+		</Row>
+
+		<Row Tag="LOC_CVS_TAMAZGHA_DISTRICT_HARBOR_OASIS_ADJACENCY" Language="en_US">
+			<Text>
+				+2 [ICON_GOLD] Gold from the adjacent Oasis Tile.
+			</Text>
+		</Row>
+
+		<Row Tag="LOC_CVS_TAMAZGHA_DISTRICT_COMMERCIAL_HUB_OASIS_ADJACENCY" Language="en_US">
+			<Text>
+				+2 [ICON_GOLD] Gold from the adjacent Oasis Tile.
+			</Text>
+		</Row>
+
+		<Row Tag="LOC_CVS_TAMAZGHA_DISTRICT_THEATER_OASIS_ADJACENCY" Language="en_US">
+			<Text>
+				+2 [ICON_CULTURE] Culture from the adjacent Oasis Tile.
+			</Text>
+		</Row>
+
+		<Row Tag="LOC_CVS_TAMAZGHA_DISTRICT_HOLY_SITE_OASIS_ADJACENCY" Language="en_US">
+			<Text>
+				+2 [ICON_FAITH] Faith from the adjacent Oasis Tile.
+			</Text>
+		</Row>
+
+		<Row Tag="LOC_CVS_TAMAZGHA_DISTRICT_INDUSTRIAL_ZONE_OASIS_ADJACENCY" Language="en_US">
+			<Text>
+				+2 [ICON_PRODUCTION] Production from the adjacent Oasis Tile.
+			</Text>
+		</Row>
+
+		<Row Tag="LOC_CVS_TAMAZGHA_DISTRICT_GOVERNMENT_ADJACENCY" Language="en_US">
+			<Text>
+				+2 [ICON_FAITH] Gold from the adjacent Oasis Tile.
+			</Text>
+		</Row>
+
+		<Row Tag="LOC_ABILITY_CVS_BERBER_UU_DEFENDING_PREVIEW_TEXT" Language="en_US">
+			<Text>
+				+7 [ICON_Strength] Combat Strength when defending.
+			</Text>
+		</Row>
+
+		<Row Tag="LOC_ABILITY_CVS_BERBER_UU_DEFENDING_FRIENDLY_PREVIEW_TEXT" Language="en_US">
+			<Text>
+				+7 [ICON_Strength] Combat Strength when defending in home territory.
+			</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<AssetObjects::XLP>
+		<m_Version>
+			<major>4</major>
+			<minor>0</minor>
+			<build>253</build>
+			<revision>867</revision>
+		</m_Version>
+		<m_ClassName text="UITexture"/>
+		<m_PackageName text="UI/Icons"/>
+		<m_Entries>
+			<!--Dihya-->
+			<Element>
+				<m_EntryID text="LEADER_CVS_DIHYA_PORTRAIT_256"/>
+				<m_ObjectName text="LEADER_CVS_DIHYA_PORTRAIT_256"/>
+			</Element>
+			<Element>
+				<m_EntryID text="LEADER_CVS_DIHYA_PORTRAIT_80"/>
+				<m_ObjectName text="LEADER_CVS_DIHYA_PORTRAIT_80"/>
+			</Element>
+			<Element>
+				<m_EntryID text="LEADER_CVS_DIHYA_PORTRAIT_64"/>
+				<m_ObjectName text="LEADER_CVS_DIHYA_PORTRAIT_64"/>
+			</Element>
+			<Element>
+				<m_EntryID text="LEADER_CVS_DIHYA_PORTRAIT_55"/>
+				<m_ObjectName text="LEADER_CVS_DIHYA_PORTRAIT_55"/>
+			</Element>
+			<Element>
+				<m_EntryID text="LEADER_CVS_DIHYA_PORTRAIT_50"/>
+				<m_ObjectName text="LEADER_CVS_DIHYA_PORTRAIT_50"/>
+			</Element>
+			<Element>
+				<m_EntryID text="LEADER_CVS_DIHYA_PORTRAIT_45"/>
+				<m_ObjectName text="LEADER_CVS_DIHYA_PORTRAIT_45"/>
+			</Element>
+			<Element>
+				<m_EntryID text="LEADER_CVS_DIHYA_PORTRAIT_32"/>
+				<m_ObjectName text="LEADER_CVS_DIHYA_PORTRAIT_32"/>
+			</Element>
+			<!--Dihya Leaderscreen-->
+			<Element>
+				<m_EntryID text="LEADER_CVS_DIHYA_NEUTRAL"/>
+				<m_ObjectName text="LEADER_CVS_DIHYA_NEUTRAL"/>
+			</Element>
+			<Element>
+				<m_EntryID text="LEADER_CVS_DIHYA_BACKGROUND"/>
+				<m_ObjectName text="LEADER_CVS_DIHYA_BACKGROUND"/>
+			</Element>
+			<Element>
+				<m_EntryID text="ART_LEADER_CVS_DIHYA"/>
+				<m_ObjectName text="ART_LEADER_CVS_DIHYA"/>
+			</Element>
+			<!--Dihya Color-->
+			<Element>
+				<m_EntryID text="LEADER_CVS_DIHYA_ICON_45"/>
+				<m_ObjectName text="LEADER_CVS_DIHYA_ICON_45"/>
+			</Element>
+			<Element>
+				<m_EntryID text="LEADER_CVS_DIHYA_ICON_256"/>
+				<m_ObjectName text="LEADER_CVS_DIHYA_ICON_256"/>
+			</Element>
+			<!--Historic Moments-->
+			<Element>
+				<m_EntryID text="MOMENT_CVS_BERBERS_UU"/>
+				<m_ObjectName text="MOMENT_CVS_BERBERS_UU"/>
+			</Element>
+			<Element>
+				<m_EntryID text="Moment_Infrastructure_CVS_Foggara"/>
+				<m_ObjectName text="Moment_Infrastructure_CVS_Foggara"/>
+			</Element>
+			<!--Civ UU-->
+			<Element>
+				<m_EntryID text="ICON_CVS_BERBER_UU_256"/>
+				<m_ObjectName text="ICON_CVS_BERBER_UU_256"/>
+			</Element>
+			<Element>
+				<m_EntryID text="ICON_CVS_BERBER_UU_80"/>
+				<m_ObjectName text="ICON_CVS_BERBER_UU_80"/>
+			</Element>
+			<Element>
+				<m_EntryID text="ICON_CVS_BERBER_UU_50"/>
+				<m_ObjectName text="ICON_CVS_BERBER_UU_50"/>
+			</Element>
+			<Element>
+				<m_EntryID text="ICON_CVS_BERBER_UU_38"/>
+				<m_ObjectName text="ICON_CVS_BERBER_UU_38"/>
+			</Element>
+			<Element>
+				<m_EntryID text="ICON_CVS_BERBER_UU_32"/>
+				<m_ObjectName text="ICON_CVS_BERBER_UU_32"/>
+			</Element>
+			<Element>
+				<m_EntryID text="ICON_CVS_BERBER_UU_22"/>
+				<m_ObjectName text="ICON_CVS_BERBER_UU_22"/>
+			</Element>
+			<!--Civ UU Portraits-->
+			<Element>
+				<m_EntryID text="ICON_CVS_BERBER_UU_PORTRAIT_256"/>
+				<m_ObjectName text="ICON_CVS_BERBER_UU_PORTRAIT_256"/>
+			</Element>
+			<Element>
+				<m_EntryID text="ICON_CVS_BERBER_UU_PORTRAIT_200"/>
+				<m_ObjectName text="ICON_CVS_BERBER_UU_PORTRAIT_200"/>
+			</Element>
+			<Element>
+				<m_EntryID text="ICON_CVS_BERBER_UU_PORTRAIT_95"/>
+				<m_ObjectName text="ICON_CVS_BERBER_UU_PORTRAIT_95"/>
+			</Element>
+			<Element>
+				<m_EntryID text="ICON_CVS_BERBER_UU_PORTRAIT_70"/>
+				<m_ObjectName text="ICON_CVS_BERBER_UU_PORTRAIT_70"/>
+			</Element>
+			<Element>
+				<m_EntryID text="ICON_CVS_BERBER_UU_PORTRAIT_50"/>
+				<m_ObjectName text="ICON_CVS_BERBER_UU_PORTRAIT_50"/>
+			</Element>
+			<Element>
+				<m_EntryID text="ICON_CVS_BERBER_UU_PORTRAIT_38"/>
+				<m_ObjectName text="ICON_CVS_BERBER_UU_PORTRAIT_38"/>
+			</Element>
+			<!--Civ UI-->
+			<Element>
+				<m_EntryID text="CIVILIZATION_CVS_BERBER_UI_ICON_38"/>
+				<m_ObjectName text="CIVILIZATION_CVS_BERBER_UI_ICON_38"/>
+			</Element>
+			<Element>
+				<m_EntryID text="CIVILIZATION_CVS_BERBER_UI_ICON_40"/>
+				<m_ObjectName text="CIVILIZATION_CVS_BERBER_UI_ICON_40"/>
+			</Element>
+			<Element>
+				<m_EntryID text="CIVILIZATION_CVS_BERBER_UI_ICON_50"/>
+				<m_ObjectName text="CIVILIZATION_CVS_BERBER_UI_ICON_50"/>
+			</Element>
+			<Element>
+				<m_EntryID text="CIVILIZATION_CVS_BERBER_UI_ICON_80"/>
+				<m_ObjectName text="CIVILIZATION_CVS_BERBER_UI_ICON_80"/>
+			</Element>
+			<Element>
+				<m_EntryID text="CIVILIZATION_CVS_BERBER_UI_ICON_200"/>
+				<m_ObjectName text="CIVILIZATION_CVS_BERBER_UI_ICON_200"/>
+			</Element>
+			<Element>
+				<m_EntryID text="CIVILIZATION_CVS_BERBER_UI_ICON_256"/>
+				<m_ObjectName text="CIVILIZATION_CVS_BERBER_UI_ICON_256"/>
+			</Element>
+			<!--Civ-->
+			<Element>
+				<m_EntryID text="CIVILIZATION_CVS_BERBER_ICON_256"/>
+				<m_ObjectName text="CIVILIZATION_CVS_BERBER_ICON_256"/>
+			</Element>
+			<!--<Element>
+				<m_EntryID text="CIVILIZATION_CVS_BERBER_ICON_200"/>
+				<m_ObjectName text="CIVILIZATION_CVS_BERBER_ICON_200"/>
+			</Element>-->
+			<Element>
+				<m_EntryID text="CIVILIZATION_CVS_BERBER_ICON_22"/>
+				<m_ObjectName text="CIVILIZATION_CVS_BERBER_ICON_22"/>
+			</Element>
+			<Element>
+				<m_EntryID text="CIVILIZATION_CVS_BERBER_ICON_30"/>
+				<m_ObjectName text="CIVILIZATION_CVS_BERBER_ICON_30"/>
+			</Element>
+			<Element>
+				<m_EntryID text="CIVILIZATION_CVS_BERBER_ICON_36"/>
+				<m_ObjectName text="CIVILIZATION_CVS_BERBER_ICON_36"/>
+			</Element>
+			<Element>
+				<m_EntryID text="CIVILIZATION_CVS_BERBER_ICON_44"/>
+				<m_ObjectName text="CIVILIZATION_CVS_BERBER_ICON_44"/>
+			</Element>
+			<Element>
+				<m_EntryID text="CIVILIZATION_CVS_BERBER_ICON_48"/>
+				<m_ObjectName text="CIVILIZATION_CVS_BERBER_ICON_48"/>
+			</Element>
+			<Element>
+				<m_EntryID text="CIVILIZATION_CVS_BERBER_ICON_50"/>
+				<m_ObjectName text="CIVILIZATION_CVS_BERBER_ICON_50"/>
+			</Element>
+			<Element>
+				<m_EntryID text="CIVILIZATION_CVS_BERBER_ICON_64"/>
+				<m_ObjectName text="CIVILIZATION_CVS_BERBER_ICON_64"/>
+			</Element>
+			<Element>
+				<m_EntryID text="CIVILIZATION_CVS_BERBER_ICON_80"/>
+				<m_ObjectName text="CIVILIZATION_CVS_BERBER_ICON_80"/>
+			</Element>
+			<!-- City States-->
+			<Element>
+				<m_EntryID text="CVS_Berber_CityStates128"/>
+				<m_ObjectName text="CVS_Berber_CityStates128"/>
+			</Element>
+			<Element>
+				<m_EntryID text="CVS_Berber_CityStates200"/>
+				<m_ObjectName text="CVS_Berber_CityStates200"/>
+			</Element>
+			<Element>
+				<m_EntryID text="CVS_Berber_CityStates22"/>
+				<m_ObjectName text="CVS_Berber_CityStates22"/>
+			</Element>
+			<Element>
+				<m_EntryID text="CVS_Berber_CityStates256"/>
+				<m_ObjectName text="CVS_Berber_CityStates256"/>
+			</Element>
+			<Element>
+				<m_EntryID text="CVS_Berber_CityStates30"/>
+				<m_ObjectName text="CVS_Berber_CityStates30"/>
+			</Element>
+			<Element>
+				<m_EntryID text="CVS_Berber_CityStates36"/>
+				<m_ObjectName text="CVS_Berber_CityStates36"/>
+			</Element>
+			<Element>
+				<m_EntryID text="CVS_Berber_CityStates44"/>
+				<m_ObjectName text="CVS_Berber_CityStates44"/>
+			</Element>
+			<Element>
+				<m_EntryID text="CVS_Berber_CityStates48"/>
+				<m_ObjectName text="CVS_Berber_CityStates48"/>
+			</Element>
+			<Element>
+				<m_EntryID text="CVS_Berber_CityStates50"/>
+				<m_ObjectName text="CVS_Berber_CityStates50"/>
+			</Element>
+			<Element>
+				<m_EntryID text="CVS_Berber_CityStates64"/>
+				<m_ObjectName text="CVS_Berber_CityStates64"/>
+			</Element>
+			<Element>
+				<m_EntryID text="CVS_Berber_CityStates80"/>
+				<m_ObjectName text="CVS_Berber_CityStates80"/>
+			</Element>
+		</m_Entries>
+		<m_AllowedPlatforms>
+			<Element>WINDOWS</Element>
+			<Element>LINUX</Element>
+			<Element>MACOS</Element>
+			<Element>IOS</Element>
+		</m_AllowedPlatforms>
+	</AssetObjects::XLP>

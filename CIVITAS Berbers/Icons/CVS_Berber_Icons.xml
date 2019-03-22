@@ -1,0 +1,82 @@
+<GameInfo>
+	<IconTextureAtlases>
+		<!--Leader-->
+		<Row Name="ICON_ATLAS_LEADER_CVS_DIHYA" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="LEADER_CVS_DIHYA_PORTRAIT_32.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_CVS_DIHYA" IconSize="45" IconsPerRow="1" IconsPerColumn="1" Filename="LEADER_CVS_DIHYA_PORTRAIT_45.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_CVS_DIHYA" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="LEADER_CVS_DIHYA_PORTRAIT_50.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_CVS_DIHYA" IconSize="55" IconsPerRow="1" IconsPerColumn="1" Filename="LEADER_CVS_DIHYA_PORTRAIT_55.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_CVS_DIHYA" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="LEADER_CVS_DIHYA_PORTRAIT_64.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_CVS_DIHYA" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="LEADER_CVS_DIHYA_PORTRAIT_80.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_CVS_DIHYA" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="LEADER_CVS_DIHYA_PORTRAIT_256.dds"/>
+
+		<!--Leader Color-->
+		<Row Name="ICON_ATLAS_CIV_CVS_DIHYA_COLOR" IconSize="45" IconsPerRow="1" IconsPerColumn="1" Filename="LEADER_CVS_DIHYA_ICON_45.dds"/>
+		<Row Name="ICON_ATLAS_CIV_CVS_DIHYA_COLOR" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="LEADER_CVS_DIHYA_ICON_256.dds"/>
+
+		<!--Civ-->
+		<Row Name="ICON_ATLAS_CIV_CVS_BERBER" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="CIVILIZATION_CVS_BERBER_ICON_256.dds"/>
+		<!--<Row Name="ICON_ATLAS_CIV_CVS_BERBER" IconSize="200" IconsPerRow="1" IconsPerColumn="1" Filename="CIVILIZATION_CVS_BERBER_ICON_200.dds"/>-->
+		<Row Name="ICON_ATLAS_CIV_CVS_BERBER" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="CIVILIZATION_CVS_BERBER_ICON_22.dds"/>
+		<Row Name="ICON_ATLAS_CIV_CVS_BERBER" IconSize="30" IconsPerRow="1" IconsPerColumn="1" Filename="CIVILIZATION_CVS_BERBER_ICON_30.dds"/>
+		<Row Name="ICON_ATLAS_CIV_CVS_BERBER" IconSize="36" IconsPerRow="1" IconsPerColumn="1" Filename="CIVILIZATION_CVS_BERBER_ICON_36.dds"/>
+		<Row Name="ICON_ATLAS_CIV_CVS_BERBER" IconSize="44" IconsPerRow="1" IconsPerColumn="1" Filename="CIVILIZATION_CVS_BERBER_ICON_44.dds"/>
+		<Row Name="ICON_ATLAS_CIV_CVS_BERBER" IconSize="45" IconsPerRow="1" IconsPerColumn="1" Filename="LEADER_CVS_DIHYA_ICON_45.dds"/><!--Suk's Civ Select-->
+		<Row Name="ICON_ATLAS_CIV_CVS_BERBER" IconSize="48" IconsPerRow="1" IconsPerColumn="1" Filename="CIVILIZATION_CVS_BERBER_ICON_48.dds"/>
+		<Row Name="ICON_ATLAS_CIV_CVS_BERBER" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="CIVILIZATION_CVS_BERBER_ICON_50.dds"/>
+		<Row Name="ICON_ATLAS_CIV_CVS_BERBER" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="CIVILIZATION_CVS_BERBER_ICON_64.dds"/>
+		<Row Name="ICON_ATLAS_CIV_CVS_BERBER" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="CIVILIZATION_CVS_BERBER_ICON_80.dds"/>
+
+		<!--Civ UU-->
+		<Row Name="ICON_ATLAS_CVS_BERBER_UU" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CVS_BERBER_UU_22.dds"/>
+		<Row Name="ICON_ATLAS_CVS_BERBER_UU" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CVS_BERBER_UU_32.dds"/>
+		<Row Name="ICON_ATLAS_CVS_BERBER_UU" IconSize="38" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CVS_BERBER_UU_38.dds"/>
+		<Row Name="ICON_ATLAS_CVS_BERBER_UU" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CVS_BERBER_UU_50.dds"/>
+		<Row Name="ICON_ATLAS_CVS_BERBER_UU" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CVS_BERBER_UU_80.dds"/>
+		<Row Name="ICON_ATLAS_CVS_BERBER_UU" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CVS_BERBER_UU_256.dds"/>
+
+		<!--Civ UU Portrait-->
+		<Row Name="ICON_ATLAS_CVS_BERBER_UU_PORTRAIT" IconSize="38" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CVS_BERBER_UU_PORTRAIT_38.dds"/>
+		<Row Name="ICON_ATLAS_CVS_BERBER_UU_PORTRAIT" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CVS_BERBER_UU_PORTRAIT_50.dds"/>
+		<Row Name="ICON_ATLAS_CVS_BERBER_UU_PORTRAIT" IconSize="70" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CVS_BERBER_UU_PORTRAIT_70.dds"/>
+		<Row Name="ICON_ATLAS_CVS_BERBER_UU_PORTRAIT" IconSize="95" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CVS_BERBER_UU_PORTRAIT_95.dds"/>
+		<Row Name="ICON_ATLAS_CVS_BERBER_UU_PORTRAIT" IconSize="200" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CVS_BERBER_UU_PORTRAIT_200.dds"/>
+		<Row Name="ICON_ATLAS_CVS_BERBER_UU_PORTRAIT" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CVS_BERBER_UU_PORTRAIT_256.dds"/>
+
+		<!--Civ UI-->
+		<Row Name="ICON_ATLAS_CVS_BERBER_UI_ICON" IconSize="38" IconsPerRow="1" IconsPerColumn="1" Filename="CIVILIZATION_CVS_BERBER_UI_ICON_38.dds"/>
+		<Row Name="ICON_ATLAS_CVS_BERBER_UI_ICON" IconSize="40" IconsPerRow="1" IconsPerColumn="1" Filename="CIVILIZATION_CVS_BERBER_UI_ICON_40.dds"/>
+		<Row Name="ICON_ATLAS_CVS_BERBER_UI_ICON" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="CIVILIZATION_CVS_BERBER_UI_ICON_50.dds"/>
+		<Row Name="ICON_ATLAS_CVS_BERBER_UI_ICON" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="CIVILIZATION_CVS_BERBER_UI_ICON_80.dds"/>
+		<Row Name="ICON_ATLAS_CVS_BERBER_UI_ICON" IconSize="200" IconsPerRow="1" IconsPerColumn="1" Filename="CIVILIZATION_CVS_BERBER_UI_ICON_200.dds"/>
+		<Row Name="ICON_ATLAS_CVS_BERBER_UI_ICON" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="CIVILIZATION_CVS_BERBER_UI_ICON_256.dds"/>
+
+		<!--City States UI-->
+		<Row Name="ICON_ATLAS_CVS_BERBER_CITYSTATES" IconSize="22" IconsPerRow="2" IconsPerColumn="1" Filename="CVS_Berber_CityStates22.dds"/>
+		<Row Name="ICON_ATLAS_CVS_BERBER_CITYSTATES" IconSize="30" IconsPerRow="2" IconsPerColumn="1" Filename="CVS_Berber_CityStates30.dds"/>
+		<Row Name="ICON_ATLAS_CVS_BERBER_CITYSTATES" IconSize="36" IconsPerRow="2" IconsPerColumn="1" Filename="CVS_Berber_CityStates36.dds"/>
+		<Row Name="ICON_ATLAS_CVS_BERBER_CITYSTATES" IconSize="44" IconsPerRow="2" IconsPerColumn="1" Filename="CVS_Berber_CityStates44.dds"/>
+		<Row Name="ICON_ATLAS_CVS_BERBER_CITYSTATES" IconSize="48" IconsPerRow="2" IconsPerColumn="1" Filename="CVS_Berber_CityStates48.dds"/>
+		<Row Name="ICON_ATLAS_CVS_BERBER_CITYSTATES" IconSize="50" IconsPerRow="2" IconsPerColumn="1" Filename="CVS_Berber_CityStates50.dds"/>
+		<Row Name="ICON_ATLAS_CVS_BERBER_CITYSTATES" IconSize="64" IconsPerRow="2" IconsPerColumn="1" Filename="CVS_Berber_CityStates64.dds"/>
+		<Row Name="ICON_ATLAS_CVS_BERBER_CITYSTATES" IconSize="80" IconsPerRow="2" IconsPerColumn="1" Filename="CVS_Berber_CityStates80.dds"/>
+		<Row Name="ICON_ATLAS_CVS_BERBER_CITYSTATES" IconSize="128" IconsPerRow="2" IconsPerColumn="1" Filename="CVS_Berber_CityStates128.dds"/>
+		<Row Name="ICON_ATLAS_CVS_BERBER_CITYSTATES" IconSize="200" IconsPerRow="2" IconsPerColumn="1" Filename="CVS_Berber_CityStates200.dds"/>
+		<Row Name="ICON_ATLAS_CVS_BERBER_CITYSTATES" IconSize="256" IconsPerRow="2" IconsPerColumn="1" Filename="CVS_Berber_CityStates256.dds"/>
+		
+	</IconTextureAtlases>
+
+	<IconDefinitions>
+		<Row Name="ICON_LEADER_CVS_DIHYA" Atlas="ICON_ATLAS_LEADER_CVS_DIHYA" Index="0"/>
+		<Row Name="ICON_CIVILIZATION_CVS_DIHYA_COLOR" Atlas="ICON_ATLAS_CIV_CVS_DIHYA_COLOR" Index="0"/>
+
+		<Row Name="ICON_CIVILIZATION_CVS_BERBER" Atlas="ICON_ATLAS_CIV_CVS_BERBER" Index="0"/>
+
+		<Row Name="ICON_UNIT_CVS_BERBER_UU" Atlas="ICON_ATLAS_CVS_BERBER_UU" Index="0"/>
+		<Row Name="ICON_UNIT_CVS_BERBER_UU_PORTRAIT" Atlas="ICON_ATLAS_CVS_BERBER_UU_PORTRAIT" Index="0"/>
+
+		<Row Name="ICON_IMPROVEMENT_CVS_BERBER_UI" Atlas="ICON_ATLAS_CVS_BERBER_UI_ICON" Index="0"/>
+
+		<Row Name="ICON_CVS_CIVILIZATION_GARAMA"	Atlas="ICON_ATLAS_CVS_BERBER_CITYSTATES"	Index="1"/>
+		<Row Name="ICON_CVS_CIVILIZATION_SALE"	Atlas="ICON_ATLAS_CVS_BERBER_CITYSTATES"	Index="0"/>
+	</IconDefinitions>
+</GameInfo>
