@@ -1,99 +1,105 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mod id="ba7d3560-2e89-4f92-960a-b6171ce51926" version="1">
   <Properties>
-    <Name>CIVITAS [ICON_Government] [COLOR_FLOAT_CULTURE]Berbers[ENDCOLOR]</Name>
-    <Description>Adds the Berber civilization with Dihya as its leader.</Description>
-    <Teaser>Adds the Berber civilization with Dihya as its leader.</Teaser>
-    <Authors>SeelingCat, SailorCat, ChimpanG, Chrisy, TheCrazyScotsman, p0kiehl</Authors>
-    <SpecialThanks>Leugi</SpecialThanks>
+    <Name>CIVITAS [ICON_GOVERNMENT] Berbers</Name>
+    <Description>Adds the Berbers as a new civilization in Civilization VI</Description>
+    <CompatibleVersions xmlns="http://schemas.microsoft.com/developer/msbuild/2003">2.0</CompatibleVersions>
+    <Teaser>Adds the Berbers as a new civilization in Civilization VI</Teaser>
+    <Authors>SeelingCat</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
   </Properties>
   <ActionCriteria>
+    <Criteria id="XP1 or XP2" any="1">
+      <GameCoreInUse>Expansion1,Expansion2</GameCoreInUse>
+    </Criteria>
     <Criteria id="XP1">
+      <GameModeInUse>
         <GameCoreInUse>Expansion1</GameCoreInUse>
+      </GameModeInUse>
+    </Criteria>
+    <Criteria id="XP2">
+      <GameModeInUse>
+        <GameCoreInUse>Expansion2</GameCoreInUse>
+      </GameModeInUse>
     </Criteria>
   </ActionCriteria>
   <FrontEndActions>
-    <UpdateDatabase id="Core">
+    <UpdateArt id="ArtDep">
+      <File>CIVITAS [ICON_Government] Berbers.dep</File>
+    </UpdateArt>
+    <UpdateText id="Berbers_Text">
       <Properties>
         <LoadOrder>100</LoadOrder>
       </Properties>
-      <File>Core/Civ/CVS_Berber_Config.xml</File>
-    </UpdateDatabase>
-    <UpdateText id="Select">
-      <File>Core/Civ/CVS_Berber_Text.xml</File>
-      <File>Core/Leader/CVS_Dihya_Text.xml</File>
+      <File>Core/Berber_Localisation.sql</File>
     </UpdateText>
-    <UpdateIcons id="Icons">
-      <File>Icons/CVS_Berber_Icons.xml</File>
+    <UpdateIcons id="Berbers_Icons">
+      <Properties>
+        <LoadOrder>100</LoadOrder>
+      </Properties>
+      <File>Core/Berber_Icons.sql</File>
     </UpdateIcons>
-    <UpdateArt id="NewAction">
-      <File>CIVITAS [ICON_Government] Berbers.dep</File>
-    </UpdateArt>
-    <UpdateText id="CityStatesDatabase">
-      <File>Core/City States/Text/CVS_BerberCS_Text.xml</File>
-    </UpdateText>
+    <UpdateColors id="Berbers_Colors">
+      <Properties>
+        <LoadOrder>100</LoadOrder>
+      </Properties>
+      <File>Core/Berber_Colors.sql</File>
+    </UpdateColors>
   </FrontEndActions>
   <InGameActions>
-    <UpdateDatabase id="Core">
+    <UpdateArt id="ArtDep">
+      <Properties>
+        <LoadOrder>100</LoadOrder>
+      </Properties>
+      <File>CIVITAS [ICON_Government] Berbers.dep</File>
+    </UpdateArt>
+    <UpdateDatabase id="Berbers_DB">
+      <Properties>
+        <LoadOrder>100</LoadOrder>
+      </Properties>
+      <File>Core/Berber_Civilization.sql</File>
+      <File>Core/Berber_UA.sql</File>
+      <File>Core/Berber_UI.sql</File>
+      <File>Core/Berber_UU.sql</File>
+      <File>Core/Berber_ModSupport.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="Berbers_Text">
+      <Properties>
+        <LoadOrder>100</LoadOrder>
+      </Properties>
+      <File>Core/Berber_Localisation.sql</File>
+    </UpdateText>
+    <UpdateIcons id="Berbers_Icons">
+      <Properties>
+        <LoadOrder>100</LoadOrder>
+      </Properties>
+      <File>Core/Berber_Icons.sql</File>
+    </UpdateIcons>
+    <AddGameplayScripts id="Berbers_Scripts">
+      <Properties>
+        <LoadOrder>100</LoadOrder>
+      </Properties>
+    </AddGameplayScripts>
+    <UpdateColors id="Berbers_Colors">
+      <Properties>
+        <LoadOrder>100</LoadOrder>
+      </Properties>
+      <File>Core/Berber_Colors.sql</File>
+    </UpdateColors>
+    <UpdateDatabase id="Berbers_DB_XP1">
       <Properties>
         <LoadOrder>101</LoadOrder>
       </Properties>
-      <File>Core/Leader/CVS_Dihya_Defines.sql</File>
-      <File>Core/Civ/CVS_Berber_Defines.sql</File>
-      <File>Core/Civ/CVS_Berber_Traits.sql</File>
-      <File>Core/Civ/CVS_Berber_Trader_Ability.sql</File>
-      <File>Core/Civ/CVS_Berber_UI.sql</File>
-      <File>Core/Civ/CVS_Berber_UU.sql</File>
-      <File>Core/Leader/CVS_Dihya_Traits.sql</File>
-      <File>Core/Leader/CVS_Dihya_Agenda.sql</File>
-      <File>Core/Leader/CVS_Dihya_AI.sql</File>
+      <Criteria>XP1 or XP2</Criteria>
+      <File>Core/Berber_XP1.sql</File>
     </UpdateDatabase>
-    <UpdateText id="Text">
-      <File>Core/Leader/CVS_Dihya_Text.xml</File>
-      <File>Core/Civ/CVS_Berber_Text.xml</File>
-      <File>Core/Civ/CVS_Berber_Cities.sql</File>
-    </UpdateText>
-    <UpdateIcons id="Icons">
-      <File>Icons/CVS_Berber_Icons.xml</File>
-    </UpdateIcons>
-    <UpdateArt id="Art">
-      <File>CIVITAS [ICON_Government] Berbers.dep</File>
-    </UpdateArt>
-    <AddGameplayScripts id="Lua">
-      <File>Lua/BerberTest.lua</File>
-    </AddGameplayScripts>
-    <UpdateDatabase id="CityStatesInGameDatabase">
+    <UpdateDatabase id="Berbers_DB_XP2">
       <Properties>
         <LoadOrder>102</LoadOrder>
       </Properties>
-      <File>Core/City States/Database/CVS_BerberCS_Garama.sql</File>
-      <File>Core/City States/Database/CVS_BerberCS_ModCompatibility.sql</File>
-      <File>Core/City States/Database/CVS_BerberCS_Sale.sql</File>
+      <Criteria>XP2</Criteria>
+      <File>Core/Berber_XP2.sql</File>
     </UpdateDatabase>
-    <UpdateText id="CityStatesInGameText">
-      <File>Core/City States/Text/CVS_BerberCS_Text.xml</File>
-    </UpdateText>
-    <UpdateDatabase id="XPAC">
-      <Properties>
-        <LoadOrder>103</LoadOrder>
-      </Properties>
-      <Criteria>XP1</Criteria>
-      <File>Core/Civ/CVS_Berber_HM.sql</File>
-    </UpdateDatabase>
-    <UpdateDatabase id="ModCompat">
-      <Properties>
-        <LoadOrder>104</LoadOrder>
-      </Properties>
-      <File>Core/ModSupport/OldWorld.sql</File>
-      <File>Core/ModSupport/RwF.sql</File>
-      <File>Core/ModSupport/YNAEMP.sql</File>
-    </UpdateDatabase>
-    <UpdateText id="ModText">
-      <Properties>
-        <LoadOrder>104</LoadOrder>
-      </Properties>
-      <File>Core/ModSupport/RwF.xml</File>
-    </UpdateText>
   </InGameActions>
   <Files>
     <File>ArtDefs/arer_warrior.artdef</File>
@@ -101,58 +107,21 @@
     <File>ArtDefs/Cultures.artdef</File>
     <File>ArtDefs/Improvements.artdef</File>
     <File>ArtDefs/Landmarks.artdef</File>
-    <File>ArtDefs/LeaderFallbacks.artdef</File>
-    <File>ArtDefs/Leaders.artdef</File>
+    <File>ArtDefs/Overlay.artdef</File>
     <File>ArtDefs/StrategicView.artdef</File>
-    <File>Assets/Arer_Helm.ast</File>
-    <File>Assets/Arer_Shield_01.ast</File>
-    <File>Assets/Arer_Shield_02.ast</File>
-    <File>Assets/Arer_Shield_03.ast</File>
-    <File>Assets/Arer_Shield_04.ast</File>
-    <File>Assets/Arer_Shield_05.ast</File>
-    <File>Assets/CVS_Arer_Warrior_Armor.ast</File>
-    <File>Assets/CVS_BERBER_UI.ast</File>
-    <File>Assets/DIS_CITY_BERBER_BUILDING_10.ast</File>
-    <File>Assets/DIS_CITY_BERBER_BUILDING_4.ast</File>
-    <File>Assets/DIS_CITY_BERBER_BUILDING_6.ast</File>
-    <File>Assets/DIS_CITY_BERBER_BUILDING_8.ast</File>
-    <File>Assets/DIS_CITY_BERBER_BUILDING_9.ast</File>
-    <File>Assets/DIS_CTY_RSS_BERBER_PALACE.ast</File>
+    <File>ArtDefs/UserInterface.artdef</File>
     <File>CIVITAS [ICON_Government] Berbers.dep</File>
-    <File>Core/City States/Database/CVS_BerberCS_Garama.sql</File>
-    <File>Core/City States/Database/CVS_BerberCS_ModCompatibility.sql</File>
-    <File>Core/City States/Database/CVS_BerberCS_Sale.sql</File>
-    <File>Core/City States/Text/CVS_BerberCS_Text.xml</File>
-    <File>Core/Civ/CVS_Berber_Cities.sql</File>
-    <File>Core/Civ/CVS_Berber_Config.xml</File>
-    <File>Core/Civ/CVS_Berber_Defines.sql</File>
-    <File>Core/Civ/CVS_Berber_HM.sql</File>
-    <File>Core/Civ/CVS_Berber_Text.xml</File>
-    <File>Core/Civ/CVS_Berber_Trader_Ability.sql</File>
-    <File>Core/Civ/CVS_Berber_Traits.sql</File>
-    <File>Core/Civ/CVS_Berber_UI.sql</File>
-    <File>Core/Civ/CVS_Berber_UU.sql</File>
-    <File>Core/Leader/CVS_Dihya_Agenda.sql</File>
-    <File>Core/Leader/CVS_Dihya_AI.sql</File>
-    <File>Core/Leader/CVS_Dihya_Defines.sql</File>
-    <File>Core/Leader/CVS_Dihya_Text.xml</File>
-    <File>Core/Leader/CVS_Dihya_Traits.sql</File>
-    <File>Core/ModSupport/OldWorld.sql</File>
-    <File>Core/ModSupport/RwF.sql</File>
-    <File>Core/ModSupport/RwF.xml</File>
-    <File>Core/ModSupport/YNAEMP.sql</File>
-    <File>Icons/CVS_Berber_Icons.xml</File>
-    <File>Lua/BerberTest.lua</File>
-    <File>Materials/Arer_Armor.mtl</File>
-    <File>Materials/Arer_Hat_Material.mtl</File>
-    <File>Materials/Arer_Shield_01.mtl</File>
-    <File>Materials/Arer_Shield_02.mtl</File>
-    <File>Materials/Arer_Shield_03.mtl</File>
-    <File>Materials/Arer_Shield_04.mtl</File>
-    <File>Materials/Arer_Shield_05.mtl</File>
-    <File>Materials/BERBER_PALACE_MATERIAL.mtl</File>
+    <File>Core/Berber_Civilization.sql</File>
+    <File>Core/Berber_Icons.sql</File>
+    <File>Core/Berber_Localisation.sql</File>
+    <File>Core/Berber_ModSupport.sql</File>
+    <File>Core/Berber_UA.sql</File>
+    <File>Core/Berber_UI.sql</File>
+    <File>Core/Berber_UU.sql</File>
+    <File>Core/Berber_XP1.sql</File>
+    <File>Core/Berber_XP2.sql</File>
     <File>Platforms/MacOS/BLPs/landmarks/tilebases.blp</File>
-    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/LensAssets.blp</File>
     <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Archer_BraceA</File>
     <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Archer_BraceB</File>
     <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Archer_BraceC</File>
@@ -200,7 +169,8 @@
     <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Warrior_DeathMeleeB</File>
     <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
     <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_M</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_CIVILIZATION_CVS_BERBER_OVERLAY</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_CIVILIZATION_CVS_BERBER_PRESSURE</File>
     <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_B</File>
     <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_FOW</File>
     <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_H</File>
@@ -260,11 +230,10 @@
     <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Spearman_var_n0</File>
     <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Spearman_var_n1</File>
     <File>Platforms/MacOS/BLPs/strategicview/strategicview_improvements.blp</File>
-    <File>Platforms/MacOS/BLPs/UILeaders.blp</File>
     <File>Platforms/MacOS/BLPs/UI/Icons.blp</File>
     <File>Platforms/MacOS/BLPs/units/arer_warrior.blp</File>
     <File>Platforms/Windows/BLPs/landmarks/tilebases.blp</File>
-    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/LensAssets.blp</File>
     <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Archer_BraceA</File>
     <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Archer_BraceB</File>
     <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Archer_BraceC</File>
@@ -312,7 +281,8 @@
     <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Warrior_DeathMeleeB</File>
     <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
     <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
-    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_M</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_CIVILIZATION_CVS_BERBER_OVERLAY</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_CIVILIZATION_CVS_BERBER_PRESSURE</File>
     <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_B</File>
     <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_FOW</File>
     <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_H</File>
@@ -372,156 +342,12 @@
     <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Spearman_var_n0</File>
     <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Spearman_var_n1</File>
     <File>Platforms/Windows/BLPs/strategicview/strategicview_improvements.blp</File>
-    <File>Platforms/Windows/BLPs/UILeaders.blp</File>
     <File>Platforms/Windows/BLPs/UI/Icons.blp</File>
     <File>Platforms/Windows/BLPs/units/arer_warrior.blp</File>
-    <File>Textures/ART_LEADER_CVS_DIHYA.dds</File>
-    <File>Textures/ART_LEADER_CVS_DIHYA.tex</File>
-    <File>Textures/Berber_Armor_01_a.dds</File>
-    <File>Textures/Berber_Armor_01_a.tex</File>
-    <File>Textures/Berber_Armor_01_a2.dds</File>
-    <File>Textures/Berber_Armor_01_a2.tex</File>
-    <File>Textures/Berber_Armor_01_a3.dds</File>
-    <File>Textures/Berber_Armor_01_a3.tex</File>
-    <File>Textures/Berber_Armor_01_a4.dds</File>
-    <File>Textures/Berber_Armor_01_a4.tex</File>
-    <File>Textures/Berber_Armor_01_a5.dds</File>
-    <File>Textures/Berber_Armor_01_a5.tex</File>
-    <File>Textures/Berber_Armor_01_a6.dds</File>
-    <File>Textures/Berber_Armor_01_a6.tex</File>
-    <File>Textures/Berber_Armor_01_t.dds</File>
-    <File>Textures/Berber_Armor_01_t.tex</File>
-    <File>Textures/Berber_Hat_01_a.dds</File>
-    <File>Textures/Berber_Hat_01_a.tex</File>
-    <File>Textures/BERBER_PALACE_COLOR.dds</File>
-    <File>Textures/BERBER_PALACE_COLOR.tex</File>
-    <File>Textures/Berber_Shield_01_a.dds</File>
-    <File>Textures/Berber_Shield_01_a.tex</File>
-    <File>Textures/Berber_Shield_02_a.dds</File>
-    <File>Textures/Berber_Shield_02_a.tex</File>
-    <File>Textures/Berber_Shield_03_a.dds</File>
-    <File>Textures/Berber_Shield_03_a.tex</File>
-    <File>Textures/Berber_Shield_04_a.dds</File>
-    <File>Textures/Berber_Shield_04_a.tex</File>
-    <File>Textures/Berber_Shield_05_a.dds</File>
-    <File>Textures/Berber_Shield_05_a.tex</File>
-    <File>Textures/CIVILIZATION_CVS_BERBER_ICON_22.dds</File>
-    <File>Textures/CIVILIZATION_CVS_BERBER_ICON_22.tex</File>
-    <File>Textures/CIVILIZATION_CVS_BERBER_ICON_256.dds</File>
-    <File>Textures/CIVILIZATION_CVS_BERBER_ICON_256.tex</File>
-    <File>Textures/CIVILIZATION_CVS_BERBER_ICON_30.dds</File>
-    <File>Textures/CIVILIZATION_CVS_BERBER_ICON_30.tex</File>
-    <File>Textures/CIVILIZATION_CVS_BERBER_ICON_36.dds</File>
-    <File>Textures/CIVILIZATION_CVS_BERBER_ICON_36.tex</File>
-    <File>Textures/CIVILIZATION_CVS_BERBER_ICON_44.dds</File>
-    <File>Textures/CIVILIZATION_CVS_BERBER_ICON_44.tex</File>
-    <File>Textures/CIVILIZATION_CVS_BERBER_ICON_48.dds</File>
-    <File>Textures/CIVILIZATION_CVS_BERBER_ICON_48.tex</File>
-    <File>Textures/CIVILIZATION_CVS_BERBER_ICON_50.dds</File>
-    <File>Textures/CIVILIZATION_CVS_BERBER_ICON_50.tex</File>
-    <File>Textures/CIVILIZATION_CVS_BERBER_ICON_64.dds</File>
-    <File>Textures/CIVILIZATION_CVS_BERBER_ICON_64.tex</File>
-    <File>Textures/CIVILIZATION_CVS_BERBER_ICON_80.dds</File>
-    <File>Textures/CIVILIZATION_CVS_BERBER_ICON_80.tex</File>
-    <File>Textures/CIVILIZATION_CVS_BERBER_UI_ICON_200.dds</File>
-    <File>Textures/CIVILIZATION_CVS_BERBER_UI_ICON_200.tex</File>
-    <File>Textures/CIVILIZATION_CVS_BERBER_UI_ICON_256.dds</File>
-    <File>Textures/CIVILIZATION_CVS_BERBER_UI_ICON_256.tex</File>
-    <File>Textures/CIVILIZATION_CVS_BERBER_UI_ICON_38.dds</File>
-    <File>Textures/CIVILIZATION_CVS_BERBER_UI_ICON_38.tex</File>
-    <File>Textures/CIVILIZATION_CVS_BERBER_UI_ICON_40.dds</File>
-    <File>Textures/CIVILIZATION_CVS_BERBER_UI_ICON_40.tex</File>
-    <File>Textures/CIVILIZATION_CVS_BERBER_UI_ICON_50.dds</File>
-    <File>Textures/CIVILIZATION_CVS_BERBER_UI_ICON_50.tex</File>
-    <File>Textures/CIVILIZATION_CVS_BERBER_UI_ICON_80.dds</File>
-    <File>Textures/CIVILIZATION_CVS_BERBER_UI_ICON_80.tex</File>
-    <File>Textures/CIVILIZATION_CVS_BERBER_UI_SV_REVEALED.dds</File>
-    <File>Textures/CIVILIZATION_CVS_BERBER_UI_SV_REVEALED.tex</File>
-    <File>Textures/CIVILIZATION_CVS_BERBER_UI_SV_REVEALED_PILLAGED.dds</File>
-    <File>Textures/CIVILIZATION_CVS_BERBER_UI_SV_REVEALED_PILLAGED.tex</File>
-    <File>Textures/CIVILIZATION_CVS_BERBER_UI_SV_VISIBLE.dds</File>
-    <File>Textures/CIVILIZATION_CVS_BERBER_UI_SV_VISIBLE.tex</File>
-    <File>Textures/CIVILIZATION_CVS_BERBER_UI_SV_VISIBLE_PILLAGED.dds</File>
-    <File>Textures/CIVILIZATION_CVS_BERBER_UI_SV_VISIBLE_PILLAGED.tex</File>
-    <File>Textures/CVS_Berber_CityStates128.dds</File>
-    <File>Textures/CVS_Berber_CityStates128.tex</File>
-    <File>Textures/CVS_Berber_CityStates200.dds</File>
-    <File>Textures/CVS_Berber_CityStates200.tex</File>
-    <File>Textures/CVS_Berber_CityStates22.dds</File>
-    <File>Textures/CVS_Berber_CityStates22.tex</File>
-    <File>Textures/CVS_Berber_CityStates256.dds</File>
-    <File>Textures/CVS_Berber_CityStates256.tex</File>
-    <File>Textures/CVS_Berber_CityStates30.dds</File>
-    <File>Textures/CVS_Berber_CityStates30.tex</File>
-    <File>Textures/CVS_Berber_CityStates36.dds</File>
-    <File>Textures/CVS_Berber_CityStates36.tex</File>
-    <File>Textures/CVS_Berber_CityStates44.dds</File>
-    <File>Textures/CVS_Berber_CityStates44.tex</File>
-    <File>Textures/CVS_Berber_CityStates48.dds</File>
-    <File>Textures/CVS_Berber_CityStates48.tex</File>
-    <File>Textures/CVS_Berber_CityStates50.dds</File>
-    <File>Textures/CVS_Berber_CityStates50.tex</File>
-    <File>Textures/CVS_Berber_CityStates64.dds</File>
-    <File>Textures/CVS_Berber_CityStates64.tex</File>
-    <File>Textures/CVS_Berber_CityStates80.dds</File>
-    <File>Textures/CVS_Berber_CityStates80.tex</File>
-    <File>Textures/FALLBACK_NEUTRAL_CVS_DIHYA.dds</File>
-    <File>Textures/FALLBACK_NEUTRAL_CVS_DIHYA.tex</File>
-    <File>Textures/ICON_CVS_BERBER_UU_22.dds</File>
-    <File>Textures/ICON_CVS_BERBER_UU_22.tex</File>
-    <File>Textures/ICON_CVS_BERBER_UU_256.dds</File>
-    <File>Textures/ICON_CVS_BERBER_UU_256.tex</File>
-    <File>Textures/ICON_CVS_BERBER_UU_32.dds</File>
-    <File>Textures/ICON_CVS_BERBER_UU_32.tex</File>
-    <File>Textures/ICON_CVS_BERBER_UU_38.dds</File>
-    <File>Textures/ICON_CVS_BERBER_UU_38.tex</File>
-    <File>Textures/ICON_CVS_BERBER_UU_50.dds</File>
-    <File>Textures/ICON_CVS_BERBER_UU_50.tex</File>
-    <File>Textures/ICON_CVS_BERBER_UU_80.dds</File>
-    <File>Textures/ICON_CVS_BERBER_UU_80.tex</File>
-    <File>Textures/ICON_CVS_BERBER_UU_PORTRAIT_200.dds</File>
-    <File>Textures/ICON_CVS_BERBER_UU_PORTRAIT_200.tex</File>
-    <File>Textures/ICON_CVS_BERBER_UU_PORTRAIT_256.dds</File>
-    <File>Textures/ICON_CVS_BERBER_UU_PORTRAIT_256.tex</File>
-    <File>Textures/ICON_CVS_BERBER_UU_PORTRAIT_38.dds</File>
-    <File>Textures/ICON_CVS_BERBER_UU_PORTRAIT_38.tex</File>
-    <File>Textures/ICON_CVS_BERBER_UU_PORTRAIT_50.dds</File>
-    <File>Textures/ICON_CVS_BERBER_UU_PORTRAIT_50.tex</File>
-    <File>Textures/ICON_CVS_BERBER_UU_PORTRAIT_70.dds</File>
-    <File>Textures/ICON_CVS_BERBER_UU_PORTRAIT_70.tex</File>
-    <File>Textures/ICON_CVS_BERBER_UU_PORTRAIT_95.dds</File>
-    <File>Textures/ICON_CVS_BERBER_UU_PORTRAIT_95.tex</File>
-    <File>Textures/LEADER_CVS_DIHYA_BACKGROUND.dds</File>
-    <File>Textures/LEADER_CVS_DIHYA_BACKGROUND.tex</File>
-    <File>Textures/LEADER_CVS_DIHYA_ICON_256.dds</File>
-    <File>Textures/LEADER_CVS_DIHYA_ICON_256.tex</File>
-    <File>Textures/LEADER_CVS_DIHYA_ICON_45.dds</File>
-    <File>Textures/LEADER_CVS_DIHYA_ICON_45.tex</File>
-    <File>Textures/LEADER_CVS_DIHYA_NEUTRAL.dds</File>
-    <File>Textures/LEADER_CVS_DIHYA_NEUTRAL.tex</File>
-    <File>Textures/LEADER_CVS_DIHYA_PORTRAIT_256.dds</File>
-    <File>Textures/LEADER_CVS_DIHYA_PORTRAIT_256.tex</File>
-    <File>Textures/LEADER_CVS_DIHYA_PORTRAIT_32.dds</File>
-    <File>Textures/LEADER_CVS_DIHYA_PORTRAIT_32.tex</File>
-    <File>Textures/LEADER_CVS_DIHYA_PORTRAIT_45.dds</File>
-    <File>Textures/LEADER_CVS_DIHYA_PORTRAIT_45.tex</File>
-    <File>Textures/LEADER_CVS_DIHYA_PORTRAIT_50.dds</File>
-    <File>Textures/LEADER_CVS_DIHYA_PORTRAIT_50.tex</File>
-    <File>Textures/LEADER_CVS_DIHYA_PORTRAIT_55.dds</File>
-    <File>Textures/LEADER_CVS_DIHYA_PORTRAIT_55.tex</File>
-    <File>Textures/LEADER_CVS_DIHYA_PORTRAIT_64.dds</File>
-    <File>Textures/LEADER_CVS_DIHYA_PORTRAIT_64.tex</File>
-    <File>Textures/LEADER_CVS_DIHYA_PORTRAIT_80.dds</File>
-    <File>Textures/LEADER_CVS_DIHYA_PORTRAIT_80.tex</File>
-    <File>Textures/MOMENT_CVS_BERBERS_UU.dds</File>
-    <File>Textures/MOMENT_CVS_BERBERS_UU.tex</File>
-    <File>Textures/Moment_Infrastructure_CVS_Foggara.dds</File>
-    <File>Textures/Moment_Infrastructure_CVS_Foggara.tex</File>
     <File>XLPs/arer_warrior.xlp</File>
     <File>XLPs/Atlas.xlp</File>
-    <File>XLPs/LeaderFallbacks.xlp</File>
+    <File>XLPs/LensAssets.xlp</File>
     <File>XLPs/StrategicView_Improvements.xlp</File>
     <File>XLPs/tilebases.xlp</File>
-    <File>XLPs/UILeaders.xlp</File>
   </Files>
 </Mod>

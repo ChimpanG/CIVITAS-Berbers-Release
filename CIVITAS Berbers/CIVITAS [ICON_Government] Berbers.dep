@@ -156,7 +156,9 @@
 		</Element>
 		<Element>
 			<ConsumerName text="UI"/>
-			<ArtDefDependencyPaths/>
+			<ArtDefDependencyPaths>
+				<Element text="UserInterface.artdef"/>
+			</ArtDefDependencyPaths>
 			<LibraryDependencies>
 				<Element text="UITexture"/>
 			</LibraryDependencies>
@@ -184,7 +186,9 @@
 		</Element>
 		<Element>
 			<ConsumerName text="UILensAsset"/>
-			<ArtDefDependencyPaths/>
+			<ArtDefDependencyPaths>
+				<Element text="Overlay.artdef"/>
+			</ArtDefDependencyPaths>
 			<LibraryDependencies>
 				<Element text="OverlayTexture"/>
 				<Element text="UILensAsset"/>
@@ -193,7 +197,9 @@
 		</Element>
 		<Element>
 			<ConsumerName text="Overlay"/>
-			<ArtDefDependencyPaths/>
+			<ArtDefDependencyPaths>
+				<Element text="Overlay.artdef"/>
+			</ArtDefDependencyPaths>
 			<LibraryDependencies>
 				<Element text="OverlayTexture"/>
 				<Element text="UILensAsset"/>
@@ -316,7 +322,6 @@
 				<Element text="arer_warrior.artdef"/>
 				<Element text="Civilizations.artdef"/>
 				<Element text="Improvements.artdef"/>
-				<Element text="Leaders.artdef"/>
 				<Element text="Cultures.artdef"/>
 				<Element text="StrategicView.artdef"/>
 				<Element text="Landmarks.artdef"/>
@@ -326,9 +331,7 @@
 		</Element>
 		<Element>
 			<ConsumerName text="LeaderLighting"/>
-			<ArtDefDependencyPaths>
-				<Element text="Leaders.artdef"/>
-			</ArtDefDependencyPaths>
+			<ArtDefDependencyPaths/>
 			<LibraryDependencies>
 				<Element text="LeaderLighting"/>
 				<Element text="ColorKey"/>
@@ -337,9 +340,7 @@
 		</Element>
 		<Element>
 			<ConsumerName text="Leaders"/>
-			<ArtDefDependencyPaths>
-				<Element text="Leaders.artdef"/>
-			</ArtDefDependencyPaths>
+			<ArtDefDependencyPaths/>
 			<LibraryDependencies>
 				<Element text="Leader"/>
 				<Element text="LeaderLighting"/>
@@ -349,9 +350,7 @@
 		</Element>
 		<Element>
 			<ConsumerName text="LeaderFallback"/>
-			<ArtDefDependencyPaths>
-				<Element text="LeaderFallbacks.artdef"/>
-			</ArtDefDependencyPaths>
+			<ArtDefDependencyPaths/>
 			<LibraryDependencies>
 				<Element text="LeaderFallback"/>
 			</LibraryDependencies>
@@ -437,7 +436,9 @@
 		</Element>
 		<Element>
 			<ConsumerName text="RangeArrows"/>
-			<ArtDefDependencyPaths/>
+			<ArtDefDependencyPaths>
+				<Element text="Overlay.artdef"/>
+			</ArtDefDependencyPaths>
 			<LibraryDependencies>
 				<Element text="OverlayTexture"/>
 				<Element text="UILensAsset"/>
@@ -487,11 +488,11 @@
 			</ArtDefDependencyPaths>
 		</Element>
 		<Element>
-			<ArtDefPath text="Leaders.artdef"/>
+			<ArtDefPath text="UserInterface.artdef"/>
 			<ArtDefDependencyPaths/>
 		</Element>
 		<Element>
-			<ArtDefPath text="LeaderFallbacks.artdef"/>
+			<ArtDefPath text="Overlay.artdef"/>
 			<ArtDefDependencyPaths/>
 		</Element>
 	</ArtDefDependencies>
@@ -530,9 +531,7 @@
 		</Element>
 		<Element>
 			<LibraryName text="LeaderFallback"/>
-			<PackageDependencies>
-				<Element text="LeaderFallbacks.blp"/>
-			</PackageDependencies>
+			<PackageDependencies/>
 		</Element>
 		<Element>
 			<LibraryName text="LeaderLighting"/>
@@ -604,13 +603,14 @@
 		</Element>
 		<Element>
 			<LibraryName text="UILensAsset"/>
-			<PackageDependencies/>
+			<PackageDependencies>
+				<Element text="LensAssets.blp"/>
+			</PackageDependencies>
 		</Element>
 		<Element>
 			<LibraryName text="UITexture"/>
 			<PackageDependencies>
 				<Element text="UI/Icons.blp"/>
-				<Element text="UILeaders.blp"/>
 			</PackageDependencies>
 		</Element>
 		<Element>
